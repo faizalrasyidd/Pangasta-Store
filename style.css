@@ -92,6 +92,11 @@ body {
     color: rgba(129, 250, 15, 0.829);
 }
 
+#mobile {
+    display: none;
+    align-items: center;
+}
+
 #navbar {
     display: flex;
     align-items: center;
@@ -99,10 +104,6 @@ body {
     transition: .3s;
 }
 
-#mobile {
-    display: none;
-    align-items: center;
-}
 
 #navbar.active {
     right: 0;
@@ -124,7 +125,8 @@ body {
     transition: .3s ease;
 }
 
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar li a.active {
     color: rgb(109, 218, 21);
 }
 
