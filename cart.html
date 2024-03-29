@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pangasta Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#hero" id="ns">Pangasta</a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg"><a href="#" class="active"><i data-feather="shopping-cart"></i></a></li>
+                <a href="#" id="close"><i data-feather="x-circle"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html" class="active"><i data-feather="shopping-cart"></i></a>
+            <i id="bar" data-feather="menu"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Hubungi Kami</h2>
+        <p>Lorem ipsum dolor sit Lorem, ipsum.</p>
+    </section> 
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i data-feather="x-circle"></i></a></td>
+                    <td><img src="img/download1.jpg" alt=""></td>
+                    <td>Company Website</td>
+                    <td>$431.29</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$431.29</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i data-feather="x-circle"></i></a></td>
+                    <td><img src="img/download2.jpg" alt=""></td>
+                    <td>Travel Website</td>
+                    <td>$250.10</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$250.10</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i data-feather="x-circle"></i></a></td>
+                    <td><img src="img/download3.jpg" alt=""></td>
+                    <td>E-Commerce Website</td>
+                    <td>$273.11</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$273.11</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Gunakan kupon</h3>
+            <div>
+                <input type="text" placeholder="Enter">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Total</h3>
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$ 832.92</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 832.92</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/batik_home-removebg-preview.png">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Jakarta Pusat,Jakarta,Street Soekarno Hatta,Indonesia</p>
+            <p><strong>Phone:</strong>+62-8123-456-789</p>
+            <p><strong>Hours:</strong>08:00 - 20:00 WIB, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i data-feather="facebook"></i>
+                    <i data-feather="instagram"></i>
+                    <i data-feather="twitter"></i>
+                    <i data-feather="youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Police</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Carte</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Play Store</p>
+            <div class="row">
+                <img src="img/downloadlogo.png" alt="">
+
+            </div>
+            <p>Social Media</p>
+            <img src="img/log.png" alt="">
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+      </script>
+    </body>
+    <script src="main.js"></script>
+</body>
+</html>
